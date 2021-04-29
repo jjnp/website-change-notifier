@@ -1,0 +1,8 @@
+*.iml
+*.ipr
+*.iws
+.idea/
+/build/
+/dist/
+/out/
+test-config.yml
