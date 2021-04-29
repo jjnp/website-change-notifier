@@ -8,16 +8,6 @@ import (
 	"website-change-notifier/pushover"
 )
 
-/**
-Todos:
- [x] add logging
- [ ] option to regularly send notification that thing is still running
- [ ] allow multiple sites to be monitored
- [ ] allow different notifiers
- [ ] handle all errors properly
- [ ] more nuanced config options
-*/
-
 func main() {
 	logrus.Debugln("Loading config")
 	config := loadConfig()

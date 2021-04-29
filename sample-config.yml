@@ -1,0 +1,11 @@
+site:
+  name: DemoSite
+  url: http://localhost:8080
+  interval: 1m
+  summary-interval: 24h
+pushover:
+  token: <your pushover token>
+  user: <your pushover user>
+  device: <your pushover device>
+log:
+  level: INFO
